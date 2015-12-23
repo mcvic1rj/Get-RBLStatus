@@ -57,7 +57,7 @@ for ($i = $startaddr; $i -le $endaddr; $i++)
 }
 
 }
-function Get-BlockListStatus{
+function Get-RBLStatus{
     param(
         [CmdletBinding()]
         [Parameter(Mandatory=$true)]
